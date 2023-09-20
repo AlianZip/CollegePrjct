@@ -86,11 +86,12 @@ button {
 
 #greet-input {
   margin-right: 5px;
+  margin-top: 5px;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    color: #f6f6f6;
+    color: #ffffff;
     background-color: #2f2f2f;
   }
 
@@ -101,7 +102,7 @@ button {
   input,
   button {
     color: #ffffff;
-    background-color: #0f0f0f98;
+    background-color: rgb(146, 148, 248);
   }
   button:active {
     background-color: #0f0f0f69;
