@@ -5,9 +5,9 @@
 Welcome to ROOMCOMMAND, a graphical assistant for managing and distributing players to football teams, with the added convenience of easily adding players and teams to your list. This project was created as part of our college coursework, aiming to provide a user-friendly interface for organizing football teams efficiently.
 
 ## Table of Contents
-[Features](https://github.com/AlianZip/CollegePrjct/edit/master/README.md#features)
+[Features](https://github.com/AlianZip/CollegePrjct#features)
 
-[License](https://github.com/AlianZip/CollegePrjct/edit/master/README.md#license)
+[License](https://github.com/AlianZip/CollegePrjct#license)
 
 
 ## Features
