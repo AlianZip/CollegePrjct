@@ -1,18 +1,18 @@
 const { invoke } = window.__TAURI__.tauri;
 
-let greetInputEl;
-let greetMsgEl;
+const button = document.getElementById("add-player-btn");
 
 async function greet() {
   // Learn more about Tauri commands at https://tauri.app/v1/guides/features/command
   greetMsgEl.textContent = await invoke("greet", { name: greetInputEl.value });
 }
 
-window.addEventListener("DOMContentLoaded", () => {
-  greetInputEl = document.querySelector("#greet-input");
-  greetMsgEl = document.querySelector("#greet-msg");
-  document.querySelector("#greet-form").addEventListener("submit", (e) => {
-    e.preventDefault();
-    greet();
-  });
+button.addEventListener("click", () => {
+  invoke("say_hi")
+    .then(() => {
+
+    })
+    .catch(error => {
+      console.log(error);
+    });
 });
