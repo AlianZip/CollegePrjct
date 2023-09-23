@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" modified="2023-09-23T05:38:33.376Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="63qvA8eoSZBsIGWhnmAO" version="21.7.5" type="google">
+  <diagram name="Страница — 1" id="E6EHsqOlP4kLKsGXceiK">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="N6QroGzA9lp9vdCBAmxY-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="N6QroGzA9lp9vdCBAmxY-1" target="N6QroGzA9lp9vdCBAmxY-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N6QroGzA9lp9vdCBAmxY-1" value="Импорт данных" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N6QroGzA9lp9vdCBAmxY-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N6QroGzA9lp9vdCBAmxY-2" target="N6QroGzA9lp9vdCBAmxY-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N6QroGzA9lp9vdCBAmxY-2" value="Вычисление среднего балла команды" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N6QroGzA9lp9vdCBAmxY-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N6QroGzA9lp9vdCBAmxY-6" target="N6QroGzA9lp9vdCBAmxY-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N6QroGzA9lp9vdCBAmxY-6" value="Анализ данных" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N6QroGzA9lp9vdCBAmxY-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N6QroGzA9lp9vdCBAmxY-8" target="N6QroGzA9lp9vdCBAmxY-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N6QroGzA9lp9vdCBAmxY-8" value="Поиск альтернативных игроков" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N6QroGzA9lp9vdCBAmxY-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N6QroGzA9lp9vdCBAmxY-10" target="N6QroGzA9lp9vdCBAmxY-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N6QroGzA9lp9vdCBAmxY-10" value="Расчет новой суммы контрактов" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N6QroGzA9lp9vdCBAmxY-12" value="Сохранение результата в SQLite" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
