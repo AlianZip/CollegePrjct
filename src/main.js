@@ -2,17 +2,12 @@ const { invoke } = window.__TAURI__.tauri;
 
 const button = document.getElementById("add-player-btn");
 
-async function greet() {
-  // Learn more about Tauri commands at https://tauri.app/v1/guides/features/command
-  greetMsgEl.textContent = await invoke("greet", { name: greetInputEl.value });
-}
-
 button.addEventListener("click", () => {
-  invoke("say_hi")
-    .then(() => {
-
-    })
-    .catch(error => {
-      console.log(error);
-    });
+    const NLP = document.querySelector(".input2").value;
+    const balls = parseInt(document.querySelector(".input3").value, 10);
+    const contractCost = parseFloat(document.querySelector(".input4").value);
+    const command = document.querySelector(".input5").value;
+    
+    // Вызываем функцию из Rust и передаем параметры
+    tauri.invoke('get_input_player', NLP, balls, contractCost, command);
 });
